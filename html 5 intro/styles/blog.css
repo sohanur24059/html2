@@ -1,0 +1,16 @@
+nav>ul>li{
+    display: inline;
+    margin-right: 10px;
+    font-size: larger;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+}
+figure{
+    margin: 0px;
+    height: 300px;
+}
+h5{
+    font-size: x-large;
+}
