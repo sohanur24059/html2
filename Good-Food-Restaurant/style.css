@@ -41,6 +41,7 @@ font-weight: 700;
 line-height: 50px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 10px;
 }
 .description{
     color: rgb(255, 255, 255);
@@ -51,4 +52,24 @@ line-height: 16px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
+margin-bottom: 18px;
+}
+.btn{
+    padding: 21px 32px 21px 32px;
+
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+border: none;
+background: rgb(82, 195, 3);
+margin-bottom: 32px;
+
+}
+.btn-container{
+    text-align: center;
 }
