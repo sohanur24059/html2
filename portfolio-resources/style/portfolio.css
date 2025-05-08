@@ -6,8 +6,16 @@
     font-variation-settings:
       "wdth" 100;
   }
+  .header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat:no-repeat;
+    background-position: top left,bottom right;
+  }
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -15,4 +23,47 @@ nav{
 }
 .text-primary{
     color: #FD6E0A;
+}
+.dark-02{
+    color: #474747;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+   font-size: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 50px;
+    border-radius: 5px;
+    border: none;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+.banner-content{
+    max-width: 585px;
+    max-height: 356px;
 }
